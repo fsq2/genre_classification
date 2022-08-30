@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.5.1-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-30T11:33:54.830625",
+    "startedAt": "2022-08-30T11:33:52.664235",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "preprocessed data"
+    ],
+    "state": "running",
+    "program": "/Users/fahadalqhtani/Desktop/genre_classification/starter/preprocess/run.py",
+    "codePath": "starter/preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/fsq2/genre_classification.git",
+        "commit": "9379d53193bcc1e04ba2014c3a91fcac199f5470"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "root": "/Users/fahadalqhtani/Desktop/genre_classification",
+    "host": "fahads-MacBook-Pro.local",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-094fb787726784eb6b67fddbfa4949951d832781/bin/python"
+}

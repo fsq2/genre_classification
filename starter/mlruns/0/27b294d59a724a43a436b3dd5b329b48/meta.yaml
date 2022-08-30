@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fahadalqhtani/Desktop/genre_classification/starter/mlruns/0/27b294d59a724a43a436b3dd5b329b48/artifacts
+end_time: 1661860698908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 27b294d59a724a43a436b3dd5b329b48
+run_uuid: 27b294d59a724a43a436b3dd5b329b48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661860605762
+status: 3
+tags: []
+user_id: fahadalqhtani

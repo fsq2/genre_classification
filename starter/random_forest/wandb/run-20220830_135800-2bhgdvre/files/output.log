@@ -1,0 +1,33 @@
+2022-08-30 13:58:04,631 Downloading and reading train artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project fahadqahtani/exercise_14 does not contain artifact: "data_train.csv:latest"
+Traceback (most recent call last):
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 913, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 4010, in __init__
+    self._load()
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 4585, in _load
+    raise ValueError(
+ValueError: Project fahadqahtani/exercise_14 does not contain artifact: "data_train.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 263, in <module>
+    go(args)
+  File "run.py", line 33, in go
+    train_data_path = run.use_artifact(args.train_data).file()
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 255, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2503, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/normalize.py", line 61, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 913, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 4010, in __init__
+    self._load()
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/apis/public.py", line 4585, in _load
+    raise ValueError(
+wandb.errors.CommError: Project fahadqahtani/exercise_14 does not contain artifact: "data_train.csv:latest"

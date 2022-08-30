@@ -1,0 +1,28 @@
+
+2022-08-30 14:54:06,968 Downloading and reading train artifact
+2022-08-30 14:54:10,257 Extracting target from dataframe
+2022-08-30 14:54:10,261 Splitting train/val
+2022-08-30 14:54:10,289 Setting up pipeline
+2022-08-30 14:54:10,295 Fitting
+2022-08-30 14:54:12,794 Scoring
+/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/mlflow/models/signature.py:123: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+[34m[1mwandb[39m[22m: Adding directory to artifact (/var/folders/8p/6kpvf7ts1flg459z5pjvmrq80000gn/T/tmpbajczrxp/model_export)... Done. 0.0s
+Traceback (most recent call last):
+  File "run.py", line 263, in <module>
+    go(args)
+  File "run.py", line 69, in go
+    export_model(run, pipe, used_columns, X_val, pred, args.export_artifact)
+  File "run.py", line 124, in export_model
+    artifact.wait()
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_artifacts.py", line 637, in wait
+    return self._logged_artifact.wait()
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 3575, in wait
+    resp = self._future.get().response.log_artifact_response
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/threading.py", line 302, in wait
+    waiter.acquire()
+KeyboardInterrupt

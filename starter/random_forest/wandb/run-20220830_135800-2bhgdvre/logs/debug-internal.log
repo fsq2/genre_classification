@@ -1,0 +1,190 @@
+2022-08-30 13:58:00,986 INFO    StreamThr :10844 [internal.py:wandb_internal():90] W&B internal server running at pid: 10844, started at: 2022-08-30 13:58:00.985456
+2022-08-30 13:58:00,989 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: status
+2022-08-30 13:58:00,991 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: status
+2022-08-30 13:58:00,992 DEBUG   SenderThread:10844 [sender.py:send():302] send: header
+2022-08-30 13:58:00,992 INFO    WriterThread:10844 [datastore.py:open_for_write():75] open: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/run-2bhgdvre.wandb
+2022-08-30 13:58:01,004 DEBUG   SenderThread:10844 [sender.py:send():302] send: run
+2022-08-30 13:58:02,071 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: check_version
+2022-08-30 13:58:02,078 INFO    SenderThread:10844 [dir_watcher.py:__init__():216] watching files in: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files
+2022-08-30 13:58:02,078 INFO    SenderThread:10844 [sender.py:_start_run_threads():913] run started: 2bhgdvre with start time 1661857080.968168
+2022-08-30 13:58:02,078 DEBUG   SenderThread:10844 [sender.py:send():302] send: summary
+2022-08-30 13:58:02,079 INFO    SenderThread:10844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-30 13:58:02,079 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: check_version
+2022-08-30 13:58:02,898 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: run_start
+2022-08-30 13:58:02,905 DEBUG   HandlerThread:10844 [meta.py:__init__():35] meta init
+2022-08-30 13:58:02,905 DEBUG   HandlerThread:10844 [meta.py:__init__():50] meta init done
+2022-08-30 13:58:02,905 DEBUG   HandlerThread:10844 [meta.py:probe():216] probe
+2022-08-30 13:58:02,906 DEBUG   HandlerThread:10844 [meta.py:_setup_git():206] setup git
+2022-08-30 13:58:02,947 DEBUG   HandlerThread:10844 [meta.py:_setup_git():213] setup git done
+2022-08-30 13:58:02,947 DEBUG   HandlerThread:10844 [meta.py:_save_pip():54] save pip
+2022-08-30 13:58:02,948 DEBUG   HandlerThread:10844 [meta.py:_save_pip():68] save pip done
+2022-08-30 13:58:02,948 DEBUG   HandlerThread:10844 [meta.py:_save_conda():75] save conda
+2022-08-30 13:58:03,082 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/requirements.txt
+2022-08-30 13:58:03,082 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/conda-environment.yaml
+2022-08-30 13:58:03,083 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-summary.json
+2022-08-30 13:58:04,617 DEBUG   HandlerThread:10844 [meta.py:_save_conda():85] save conda done
+2022-08-30 13:58:04,617 DEBUG   HandlerThread:10844 [meta.py:probe():254] probe done
+2022-08-30 13:58:04,622 DEBUG   SenderThread:10844 [sender.py:send():302] send: files
+2022-08-30 13:58:04,622 INFO    SenderThread:10844 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-30 13:58:04,629 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-30 13:58:04,630 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: stop_status
+2022-08-30 13:58:05,091 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/conda-environment.yaml
+2022-08-30 13:58:05,092 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-metadata.json
+2022-08-30 13:58:05,238 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:05,438 DEBUG   SenderThread:10844 [sender.py:send():302] send: telemetry
+2022-08-30 13:58:05,440 DEBUG   SenderThread:10844 [sender.py:send():302] send: exit
+2022-08-30 13:58:05,440 INFO    SenderThread:10844 [sender.py:send_exit():438] handling exit code: 1
+2022-08-30 13:58:05,441 INFO    SenderThread:10844 [sender.py:send_exit():440] handling runtime: 2
+2022-08-30 13:58:05,441 INFO    SenderThread:10844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-30 13:58:05,441 INFO    SenderThread:10844 [sender.py:send_exit():446] send defer
+2022-08-30 13:58:05,441 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:05,443 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,443 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-30 13:58:05,443 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,443 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-30 13:58:05,443 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 1
+2022-08-30 13:58:05,443 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,443 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-30 13:58:05,466 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,466 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-30 13:58:05,466 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 2
+2022-08-30 13:58:05,466 DEBUG   SenderThread:10844 [sender.py:send():302] send: stats
+2022-08-30 13:58:05,467 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,467 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-30 13:58:05,467 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,467 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-30 13:58:05,467 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 3
+2022-08-30 13:58:05,467 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,467 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-30 13:58:05,468 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,468 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-30 13:58:05,468 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 4
+2022-08-30 13:58:05,468 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,468 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-30 13:58:05,468 DEBUG   SenderThread:10844 [sender.py:send():302] send: summary
+2022-08-30 13:58:05,469 INFO    SenderThread:10844 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-30 13:58:05,469 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,469 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-30 13:58:05,469 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 5
+2022-08-30 13:58:05,470 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:05,470 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-30 13:58:05,470 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:05,470 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-30 13:58:05,547 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:06,097 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-summary.json
+2022-08-30 13:58:06,097 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/output.log
+2022-08-30 13:58:06,208 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 6
+2022-08-30 13:58:06,208 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:06,209 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:06,209 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-30 13:58:06,209 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:06,209 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-30 13:58:06,225 INFO    Thread-16 :10844 [upload_job.py:push():138] Uploaded file /var/folders/8p/6kpvf7ts1flg459z5pjvmrq80000gn/T/tmp_6mdhaitwandb/2hmn40jb-wandb-metadata.json
+2022-08-30 13:58:06,314 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:07,103 INFO    Thread-12 :10844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/config.yaml
+2022-08-30 13:58:07,450 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 7
+2022-08-30 13:58:07,450 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:07,451 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:07,451 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-30 13:58:07,451 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:07,451 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-30 13:58:07,451 INFO    SenderThread:10844 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-30 13:58:07,555 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,109 INFO    SenderThread:10844 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/output.log
+2022-08-30 13:58:08,109 INFO    SenderThread:10844 [dir_watcher.py:finish():392] scan: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files
+2022-08-30 13:58:08,110 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/requirements.txt requirements.txt
+2022-08-30 13:58:08,110 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/output.log output.log
+2022-08-30 13:58:08,110 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/config.yaml config.yaml
+2022-08-30 13:58:08,110 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-summary.json wandb-summary.json
+2022-08-30 13:58:08,113 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/conda-environment.yaml conda-environment.yaml
+2022-08-30 13:58:08,119 INFO    SenderThread:10844 [dir_watcher.py:finish():406] scan save: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-metadata.json wandb-metadata.json
+2022-08-30 13:58:08,119 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 8
+2022-08-30 13:58:08,119 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,123 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:08,126 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-30 13:58:08,127 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:08,127 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-30 13:58:08,128 INFO    SenderThread:10844 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-30 13:58:08,228 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,228 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,330 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,330 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,432 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,432 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,536 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,536 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,642 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,642 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,747 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,747 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,853 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,853 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:08,956 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:08,957 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,061 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,061 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,168 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,168 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,273 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,274 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,380 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,380 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,486 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,487 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,498 INFO    Thread-20 :10844 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/wandb-summary.json
+2022-08-30 13:58:09,593 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,594 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,636 INFO    Thread-21 :10844 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/conda-environment.yaml
+2022-08-30 13:58:09,649 INFO    Thread-18 :10844 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/output.log
+2022-08-30 13:58:09,666 INFO    Thread-17 :10844 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/requirements.txt
+2022-08-30 13:58:09,696 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,696 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,800 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,800 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:09,907 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:09,908 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,011 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,011 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,115 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,115 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,218 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,218 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,302 INFO    Thread-19 :10844 [upload_job.py:push():138] Uploaded file /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/files/config.yaml
+2022-08-30 13:58:10,324 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,325 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,430 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,430 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,507 INFO    Thread-11 :10844 [sender.py:transition_state():459] send defer: 9
+2022-08-30 13:58:10,508 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:10,508 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-30 13:58:10,509 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:10,509 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-30 13:58:10,533 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,812 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 10
+2022-08-30 13:58:10,812 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,813 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:10,813 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-30 13:58:10,814 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:10,814 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-30 13:58:10,814 INFO    SenderThread:10844 [sender.py:transition_state():459] send defer: 11
+2022-08-30 13:58:10,815 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: defer
+2022-08-30 13:58:10,815 INFO    HandlerThread:10844 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-30 13:58:10,815 DEBUG   SenderThread:10844 [sender.py:send():302] send: final
+2022-08-30 13:58:10,815 DEBUG   SenderThread:10844 [sender.py:send():302] send: footer
+2022-08-30 13:58:10,815 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: defer
+2022-08-30 13:58:10,815 INFO    SenderThread:10844 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-30 13:58:10,919 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-30 13:58:10,919 DEBUG   SenderThread:10844 [sender.py:send_request():316] send_request: poll_exit
+2022-08-30 13:58:10,919 INFO    SenderThread:10844 [file_pusher.py:join():176] waiting for file pusher
+2022-08-30 13:58:11,965 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-30 13:58:11,966 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-30 13:58:11,967 INFO    MainThread:10844 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-30 13:58:11,967 INFO    MainThread:10844 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-30 13:58:11,968 INFO    MainThread:10844 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-30 13:58:11,968 DEBUG   HandlerThread:10844 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-30 13:58:11,969 INFO    HandlerThread:10844 [handler.py:finish():810] shutting down handler
+2022-08-30 13:58:12,819 INFO    WriterThread:10844 [datastore.py:close():279] close: /Users/fahadalqhtani/Desktop/genre_classification/starter/random_forest/wandb/run-20220830_135800-2bhgdvre/run-2bhgdvre.wandb
+2022-08-30 13:58:12,865 INFO    SenderThread:10844 [sender.py:finish():1312] shutting down sender
+2022-08-30 13:58:12,865 INFO    SenderThread:10844 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-30 13:58:12,865 INFO    SenderThread:10844 [file_pusher.py:join():176] waiting for file pusher
+2022-08-30 13:58:13,446 INFO    MainThread:10844 [internal.py:handle_exit():80] Internal process exited

@@ -1,0 +1,21 @@
+
+2022-08-30 14:37:32,037 Downloading and reading train artifact
+2022-08-30 14:37:35,027 Extracting target from dataframe
+2022-08-30 14:37:35,036 Splitting train/val
+2022-08-30 14:37:35,072 Setting up pipeline
+Traceback (most recent call last):
+  File "run.py", line 263, in <module>
+    go(args)
+  File "run.py", line 52, in go
+    pipe, used_columns = get_training_inference_pipeline(args)
+  File "run.py", line 156, in get_training_inference_pipeline
+    wandb.config.update(model_config)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 182, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 170, in _update
+    parsed_dict = wandb_helper.parse_config(d)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 14, in parse_config
+    params = _to_dict(params)
+  File "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 42, in _to_dict
+    raise TypeError("config must be a dict or have a __dict__ attribute.")
+TypeError: config must be a dict or have a __dict__ attribute.
