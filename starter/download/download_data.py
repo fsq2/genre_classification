@@ -45,7 +45,7 @@ def go(args):
 
             logger.info("Logging artifact")
             run.log_artifact(artifact)
-
+            # wait for the artifact to logge
             artifact.wait()
 
 
