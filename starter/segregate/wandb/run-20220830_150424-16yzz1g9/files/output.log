@@ -1,0 +1,7 @@
+
+2022-08-30 15:04:27,555 Downloading and reading artifact
+2022-08-30 15:04:30,530 Splitting data into train, val and test
+2022-08-30 15:04:30,568 Uploading the train dataset to data_train.csv
+2022-08-30 15:04:30,830 Logging artifact
+2022-08-30 15:05:02,634 Uploading the test dataset to data_test.csv
+2022-08-30 15:05:02,759 Logging artifact

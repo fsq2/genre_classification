@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-30T12:05:38.702348",
+    "startedAt": "2022-08-30T12:05:36.068755",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/fahadalqhtani/Desktop/genre_classification/starter/outputs/2022-08-30/15-02-43/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/fsq2/genre_classification.git",
+        "commit": "d186ffe919b59f331af61e1b4122240b00bd7faf"
+    },
+    "email": "43818190+fsq2@users.noreply.github.com",
+    "root": "/Users/fahadalqhtani/Desktop/genre_classification",
+    "host": "fahads-MacBook-Pro.local",
+    "username": "fahadalqhtani",
+    "executable": "/Users/fahadalqhtani/opt/anaconda3/envs/mlflow-f4face7949397080f17fcb44ca091ffb45d2f4b8/bin/python"
+}
